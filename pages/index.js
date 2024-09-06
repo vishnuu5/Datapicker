@@ -1,4 +1,4 @@
-// pages/index.js
+
 import DatePicker from '../components/DatePicker/DatePicker';
 
 const Home = () => {

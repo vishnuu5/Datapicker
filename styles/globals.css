@@ -8,14 +8,13 @@ body {
 }
 
 .react-calendar__tile--active {
-  background: #3182ce; /* Tailwind color for active tile */
+  background: #3182ce; 
   color: #fff;
   
 }
 
 .react-calendar__tile--highlighted {
-  background: #63b3ed; /* Tailwind color for highlighted tile */
-  color: #fff;
+  background: #63b3ed; 
 }
 .react-calendar__navigation__arrow.react-calendar__navigation__next-button{
   margin: 0 10px;

@@ -1,7 +1,8 @@
-// pages/_app.js
-import '../styles/globals.css'; // Import global styles
+import React from 'react';
+
+import '../styles/globals.css'; 
 import { Provider } from 'react-redux';
-import { store } from '../store'; // Adjust path if needed
+import { store } from '../store'; 
 
 function MyApp({ Component, pageProps }) {
   return (

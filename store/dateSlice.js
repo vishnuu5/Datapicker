@@ -1,19 +1,19 @@
-// store/dateSlice.js
+
 import { createSlice } from '@reduxjs/toolkit';
 
-// Initial state for the date picker
+
 const initialState = {
-  recurrence: 'daily', // Default recurrence pattern
-  interval: 1, // Default interval
-  specificDays: [], // Days of the week for weekly recurrence
-  nthDay: '', // Nth day for monthly recurrence
-  yearMonth: '', // Month for yearly recurrence
-  yearDay: '', // Day of the month for yearly recurrence
-  startDate: '', // Start date for recurrence
-  endDate: '', // End date for recurrence
+  recurrence: 'daily', 
+  interval: 1, 
+  specificDays: [], 
+  nthDay: '', 
+  yearMonth: '', 
+  yearDay: '', 
+  startDate: '', 
+  endDate: '', 
 };
 
-// Create a slice of the Redux store
+
 const dateSlice = createSlice({
   name: 'date',
   initialState,
@@ -45,7 +45,6 @@ const dateSlice = createSlice({
   },
 });
 
-// Export actions to be used in components
 export const {
   setRecurrence,
   setInterval,
@@ -57,5 +56,5 @@ export const {
   setEndDate,
 } = dateSlice.actions;
 
-// Export the reducer to be included in the store
+
 export default dateSlice.reducer;
